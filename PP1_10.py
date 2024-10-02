@@ -2,22 +2,41 @@
 
 def q1(): 
   #Write Assignment code here
+  import math
+  num=input("Input a number: ")
+  num=float(num)
+  print(math.sqrt(num))
 
 
 def q2(): 
   #Write Assignment code here
-
+  import math
+  num=input("Input a number: ")
+  num=int(num)
+  print(math.isqrt(num))
 
 def q3(): 
   #Write Assignment code here
-
+  import math
+  num=input("Input a number: ")
+  num=float(num)
+  print(math.floor(num))
 
 def q4(): 
   #Write Assignment code here
-
+  import math
+  num=input("Input a number: ")
+  num=float(num)
+  print(math.ceil(num))
 
 def q5(): 
   #Write Assignment code here
+  import math
+  num=input("Input a number: ")
+  num2=input("Input another number: ")
+  num=float(num)
+  num2= float(num2)
+  print(math.floor(num2*num)/2)
 
 
 
