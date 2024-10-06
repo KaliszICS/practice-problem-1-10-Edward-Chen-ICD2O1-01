@@ -34,17 +34,18 @@ def q5():
   import math
   num=input("Input a number: ")
   num2=input("Input another number: ")
-  num=float(num)
-  num2= float(num2)
-  print(math.floor(num2*num)/2)
+  num=int(num)
+  num2=int(num2)
+  num3=(math.floor(num2*num/2))
+  print(num3)
 
 
 
 #Do not alter the following code
 #Comment out the following code when running your tests
 
-q1()
-q2()
-q3()
-q4()
-q5()
+# q1()
+# q2()
+# q3()
+# q4()
+# q5()
